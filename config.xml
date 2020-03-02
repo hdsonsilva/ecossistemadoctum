@@ -12,7 +12,7 @@
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
 
-    <content src="" />
+    <content src="https://ecossistema.doctum.edu.br/acesso/autenticacao" />
 
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
