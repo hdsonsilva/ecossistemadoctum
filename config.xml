@@ -6,13 +6,13 @@
         - Graduação EAD Pleno e EAD Semi Presencial
         - Pós Graduação Doctum Presencial
         - Cursos Livres Presenciais 
-    </descripti on>
+    </description>
 
     <author email="contato@doctum.edu.br" href="http://www.doctum.edu.br">
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
 
-    <content src="index.html" />
+    <content src="" />
 
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
@@ -42,7 +42,6 @@
     <splash src="./www/img/Default@3x~universal~comany.png" />
     
     <platform name="android">
-        <plugin name="onesignal-cordova-plugin"  source="npm"/>
         <allow-intent href="market:*" />
         <icon density="ldpi" src="./res/ios/logo40x40.png" width="40" height="40"/>
         <icon density="mdpi" src="./res/ios/logo120x120.png" width="120" height="120"/>
