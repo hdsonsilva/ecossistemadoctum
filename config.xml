@@ -1,11 +1,11 @@
 <?xml version='1.1' encoding='utf-8'?>
-<widget id="io.ecossistema.doctum" version="1.0.0" xmlns:gap="http://phonegap.com/ns/1.1" xmlns:cdv="http://cordova.apache.org/ns/1.1">
+<widget id="io.ecossistema.doctum" version="1.0.1" xmlns:gap="http://phonegap.com/ns/1.1" xmlns:cdv="http://cordova.apache.org/ns/1.1">
     <name>Ecossistema Doctum</name>
     <description>
         Aplicativo para alunos Doctum. Esse app foi desenvolvido para os alunos Doctum nas seguintes modalidades:
         - Graduação EAD Pleno e EAD Semi Presencial
         - Pós Graduação Doctum Presencial
-        - Cursos Livres Presenciais 
+        - Cursos Livres Presenciais
     </description>
 
     <author email="contato@doctum.edu.br" href="http://www.doctum.edu.br">
