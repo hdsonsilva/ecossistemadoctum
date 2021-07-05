@@ -26,7 +26,7 @@
     <author email="contato@doctum.edu.br" href="http://www.doctum.edu.br">
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
-    <content src="https://ecoteste.doctum.edu.br/acesso/autenticacao" />
+    <content src="https://ecossistema.doctum.edu.br/acesso/autenticacao" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
