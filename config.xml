@@ -1,18 +1,17 @@
 <?xml version='1.1' encoding='utf-8'?>
-<widget id="io.ecossistema.doctum" version="1.0.3" xmlns:gap="http://phonegap.com/ns/1.1" xmlns:cdv="http://cordova.apache.org/ns/1.1">
+<widget id="io.ecossistema.doctum" version="1.0.4" xmlns:gap="http://phonegap.com/ns/1.1" xmlns:cdv="http://cordova.apache.org/ns/1.1">
     <name>Ecossistema Doctum</name>
     <description>
-        Aplicativo para alunos Doctum. Esse app foi desenvolvido para os alunos Doctum nas seguintes modalidades:
-        - Graduação EAD Pleno e EAD Semi Presencial
-        - Pós Graduação Doctum Presencial
-        - Cursos Livres Presenciais
+        Aplicativo para alunos Doctum EAD. Esse app foi desenvolvido para os alunos Doctum nas seguintes modalidades:
+        - Graduação EAD
+        - Cursos Livres
     </description>
 
     <author email="contato@doctum.edu.br" href="http://www.doctum.edu.br">
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
 
-    <content src="https://ecossistema.doctum.edu.br/acesso/autenticacao" />
+    <!-- <content src="https://ecossistema.doctum.edu.br/acesso/autenticacao" /> -->
 
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <plugin name="cordova-plugin-splashscreen" source="npm"/>

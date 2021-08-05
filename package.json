@@ -1,5 +1,4 @@
 {
-  "dependencies": {},
   "devDependencies": {
     "cordova-android": "^9.1.0",
     "cordova-plugin-compat": "^1.2.0",

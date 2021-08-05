@@ -45,16 +45,16 @@
   },
   "installed_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossistema.doctum"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossistema.doctum"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossistema.doctum"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossistema.doctum"
     }
   },
   "dependent_plugins": {},
