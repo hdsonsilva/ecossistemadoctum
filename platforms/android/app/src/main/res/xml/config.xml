@@ -16,6 +16,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
     <name>Ecossistema Doctum</name>
     <description>
         Aplicativo para alunos Doctum EAD. Esse app foi desenvolvido para os alunos Doctum nas seguintes modalidades:
@@ -40,6 +43,11 @@
     <icon density="hdpi" height="152" src="./res/ios/logo152x152.png" width="152" />
     <icon density="xhdpi" height="167" src="./res/ios/logo167x167.png" width="167" />
     <icon density="xxxhdpi" height="1024" src="./res/ios/logo1024x1024.png" width="1024" />
+    <resource-file src="res/android/notification_icon/drawable-mdpi/notification_icon.png" target="app/src/main/res/drawable-mdpi/notification_icon.png" />
+    <resource-file src="res/android/notification_icon/drawable-hdpi/notification_icon.png" target="app/src/main/res/drawable-hdpi/notification_icon.png" />
+    <resource-file src="res/android/notification_icon/drawable-xhdpi/notification_icon.png" target="app/src/main/res/drawable-xhdpi/notification_icon.png" />
+    <resource-file src="res/android/notification_icon/drawable-xxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxhdpi/notification_icon.png" />
+    <resource-file src="res/android/notification_icon/drawable-xxxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxxhdpi/notification_icon.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="phonegap-version" value="cli-9.0.0" />
     <preference name="android-build-tool" value="gradle" />

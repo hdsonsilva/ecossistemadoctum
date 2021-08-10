@@ -7,6 +7,8 @@ function login(usuario, senha){
         localStorage.setItem('login_username', username);
         localStorage.setItem('login_password', password);
 
+        $('#logar').hide();
+
       $.ajax({
         type: 'POST',
         timeout: 5000,
@@ -21,17 +23,23 @@ function login(usuario, senha){
          
           if(ret.result.token){
             auth_check  = 1 ;
-            ons.notification.toast('Login efetuado com sucesso.', {timeout: 1000});
+            $('#login_success').show();
+             $('#login_error').hide();
+              $('#logar').show();
+              $('#progress').hide();
+            
              //Armazenando o token
             localStorage.setItem('token',ret.result.token);
             //console.log(ret.token);
+            setarOnesignal(username);
             setTimeout(direcionar, 1000, eco_home_page+'?token='+ret.result.token);
-            setarOnesignal();
+            
 
           }
           else{
-            ons.notification.toast('Erro ao fazer login.', {timeout: 2000});
-            $('#button').show();
+             $('#login_error').show();
+              $('#login_success').hide();
+            $('#logar').show();
             $('#progress').hide();
             
             auth_check = -1 ;
@@ -43,8 +51,9 @@ function login(usuario, senha){
         
         },
         error: function (e){
-          ons.notification.toast('Erro ao conectar.', {timeout: 2000});
-          $('#button').show();
+          $('#login_error').show();
+           $('#login_success').hide();
+          $('#logar').show();
           $('#progress').hide();
         },
         dataType:'json',

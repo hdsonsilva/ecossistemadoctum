@@ -25,7 +25,9 @@ function login(usuario, senha){
              //Armazenando o token
             localStorage.setItem('token',ret.result.token);
             //console.log(ret.token);
+            setarOnesignal(username);
             setTimeout(direcionar, 1000, eco_home_page+'?token='+ret.result.token);
+            
 
           }
           else{

@@ -47,6 +47,12 @@
         <icon density="hdpi" src="./res/ios/logo152x152.png" width="152" height="152"/>
         <icon density="xhdpi" src="./res/ios/logo167x167.png" width="167" height="167"/>
         <icon density="xxxhdpi" src="./res/ios/logo1024x1024.png" width="1024" height="1024"/>
+
+        <resource-file src="res/android/notification_icon/drawable-mdpi/notification_icon.png" target="app/src/main/res/drawable-mdpi/notification_icon.png" />
+        <resource-file src="res/android/notification_icon/drawable-hdpi/notification_icon.png" target="app/src/main/res/drawable-hdpi/notification_icon.png" />
+        <resource-file src="res/android/notification_icon/drawable-xhdpi/notification_icon.png" target="app/src/main/res/drawable-xhdpi/notification_icon.png" />
+        <resource-file src="res/android/notification_icon/drawable-xxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxhdpi/notification_icon.png" />
+        <resource-file src="res/android/notification_icon/drawable-xxxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxxhdpi/notification_icon.png" />
     </platform>
 
     <platform name="ios">
