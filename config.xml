@@ -16,17 +16,17 @@
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
     <plugin name="cordova-plugin-inappbrowser" source="npm" />
+
     
     <!-- Requires cli-8.0.0 but we recommend using the latest version. -->
     <preference name="phonegap-version" value="cli-9.0.0" /> 
     <preference name="android-build-tool" value="gradle" />
-    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-minSdkVersion" value="29" />
+    <preference name="android-targetSdkVersion" value="29" />
+    
 
     <preference name="Orientation" value="portrait" />
 
-    <!-- Can omit if not targetting Windows Phone -->
-    <preference name="windows-appx-target" value="8.1-phone" />
-    <preference name="WindowsToastCapable" value="true" />
 
     <access origin="*" />
     <allow-navigation href="*" />

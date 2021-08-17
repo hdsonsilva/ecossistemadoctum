@@ -21,6 +21,10 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "io.ecossistema.doctum"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
+      "PACKAGE_NAME": "io.ecossistema.doctum"
     }
   },
   "dependent_plugins": {}

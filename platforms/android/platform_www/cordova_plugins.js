@@ -196,6 +196,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "OneSignal"
       ]
+    },
+    {
+      "id": "cordova-plugin-push-notifications.PushNotification",
+      "file": "plugins/cordova-plugin-push-notifications/www/PushNotification.js",
+      "pluginId": "cordova-plugin-push-notifications",
+      "clobbers": [
+        "pushNotification"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -203,6 +211,8 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-inappbrowser": "5.0.0",
     "cordova-plugin-splashscreen": "6.0.0",
     "cordova-plugin-whitelist": "1.3.4",
-    "onesignal-cordova-plugin": "2.11.4"
+    "onesignal-cordova-plugin": "2.11.4",
+    "cordova-plugin-push-notifications": "1.0.1",
+    "cordova-android-support-gradle-release": "3.0.1"
   };
 });
