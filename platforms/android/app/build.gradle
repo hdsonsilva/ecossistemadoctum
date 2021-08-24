@@ -143,7 +143,6 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../onesignal-cordova-plugin/doctum-build-extras-onesignal.gradle"
-apply from: "../cordova-android-support-gradle-release/doctum-cordova-android-support-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()

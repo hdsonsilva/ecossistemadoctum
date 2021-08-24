@@ -46,23 +46,5 @@
     },
     "is_top_level": true,
     "variables": {}
-  },
-  "cordova-android-support-gradle-release": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-android-support-gradle-release@^3.0.1"
-    },
-    "is_top_level": true,
-    "variables": {
-      "ANDROID_SUPPORT_VERSION": "28.+"
-    }
-  },
-  "cordova-plugin-androidx": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-androidx@^3.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
   }
 }

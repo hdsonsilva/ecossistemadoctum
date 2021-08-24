@@ -1,8 +1,7 @@
 {
   "devDependencies": {
-    "cordova-android": "^9.1.0",
-    "cordova-android-support-gradle-release": "^3.0.1",
-    "cordova-plugin-androidx": "^3.0.0",
+    "cordova-android": "^10.1.0",
+    "cordova-browser": "^6.0.0",
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-file": "^4.3.3",
     "cordova-plugin-inappbrowser": "^5.0.0",
@@ -15,14 +14,14 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-inappbrowser": {},
-      "onesignal-cordova-plugin": {},
-      "cordova-android-support-gradle-release": {
-        "ANDROID_SUPPORT_VERSION": "28.+"
-      },
-      "cordova-plugin-androidx": {}
+      "onesignal-cordova-plugin": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
+  },
+  "dependencies": {
+    "cordova": "^6.0.0"
   }
 }
