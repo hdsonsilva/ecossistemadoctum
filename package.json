@@ -1,12 +1,7 @@
 {
   "devDependencies": {
-<<<<<<< HEAD
     "cordova-android": "^10.0.0",
     "cordova-browser": "^6.0.0",
-    "cordova-ios": "^6.2.0",
-=======
-    "cordova-browser": "^6.0.0",
->>>>>>> c7ccbe992efde79403cbc9a167b444a3b709298e
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-file": "^4.3.3",
     "cordova-plugin-inappbrowser": "^5.0.0",
@@ -20,12 +15,8 @@
       "onesignal-cordova-plugin": {}
     },
     "platforms": [
-<<<<<<< HEAD
       "browser",
       "android"
-=======
-      "browser"
->>>>>>> c7ccbe992efde79403cbc9a167b444a3b709298e
     ]
   },
   "dependencies": {
