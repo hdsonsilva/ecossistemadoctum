@@ -188,12 +188,21 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "navigator.splashscreen"
       ]
+    },
+    {
+      "id": "onesignal-cordova-plugin.OneSignal",
+      "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+      "pluginId": "onesignal-cordova-plugin",
+      "clobbers": [
+        "OneSignal"
+      ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-inappbrowser": "5.0.0",
     "cordova-plugin-splashscreen": "6.0.0",
-    "cordova-plugin-whitelist": "1.3.4"
+    "cordova-plugin-whitelist": "1.3.4",
+    "onesignal-cordova-plugin": "2.4.5"
   };
 });
