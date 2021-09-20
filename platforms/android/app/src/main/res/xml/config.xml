@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ecossistema.doctum" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.1" xmlns:gap="http://phonegap.com/ns/1.1">
+<widget id="io.ecossis.doctum" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.1" xmlns:gap="http://phonegap.com/ns/1.1">
     <feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
         <param name="onload" value="true" />
@@ -10,10 +10,6 @@
     </feature>
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
     <feature name="OneSignalPush">
@@ -28,6 +24,7 @@
     <author email="contato@doctum.edu.br" href="http://www.doctum.edu.br">
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
+    <gap:plugin name="onesignal-cordova-plugin" source="npm" spec="2.4.5" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
@@ -49,6 +46,7 @@
     <resource-file src="res/android/notification_icon/drawable-xxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxhdpi/notification_icon.png" />
     <resource-file src="res/android/notification_icon/drawable-xxxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxxhdpi/notification_icon.png" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="android-build-tool" value="gradle" />
     <preference name="android-minSdkVersion" value="27" />
     <preference name="Orientation" value="portrait" />
 </widget>
