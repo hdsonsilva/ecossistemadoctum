@@ -11,8 +11,6 @@
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
 
-    <!-- <content src="https://ecossistema.doctum.edu.br/acesso/autenticacao" /> -->
-
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
     <plugin name="cordova-plugin-inappbrowser" source="npm" />
     <gap:plugin name="onesignal-cordova-plugin" spec="2.4.5" source="npm" />
