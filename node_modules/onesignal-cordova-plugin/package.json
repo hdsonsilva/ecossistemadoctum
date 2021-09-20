@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "_from": "onesignal-cordova-plugin@2.4.5",
   "_id": "onesignal-cordova-plugin@2.4.5",
   "_inBundle": false,
@@ -42,6 +43,35 @@
   "cordova_name": "OneSignal Push Notifications",
   "deprecated": false,
   "description": "OneSignal is a high volume Push Notification service for mobile apps. In addition to basic notification delivery, OneSignal also provides tools to localize, target, schedule, and automate notifications that you send.",
+=======
+  "version": "2.11.4",
+
+  "name": "onesignal-cordova-plugin",
+  "cordova_name": "OneSignal Push Notifications",
+  "description": "OneSignal is a high volume Push Notification service for mobile apps. In addition to basic notification delivery, OneSignal also provides tools to localize, target, schedule, and automate notifications that you send.",
+  "license": "MIT",
+  "keywords": [
+    "push",
+    "notification",
+    "push notification",
+    "push notifications",
+    "apns",
+    "gcm",
+    "adm",
+    "retention",
+    "messaging",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-amazon-fireos"
+  ],
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "amazon-fireos"
+  ],
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
   "engines": [
     {
       "name": "cordova-android",
@@ -64,6 +94,7 @@
       "version": ">=4.3.0"
     }
   ],
+<<<<<<< HEAD
   "homepage": "https://github.com/onesignal/OneSignal-Cordova-SDK#readme",
   "keywords": [
     "push",
@@ -88,9 +119,28 @@
     "windows",
     "amazon-fireos"
   ],
+=======
+  "cordova": {
+    "id": "onesignal-cordova-plugin",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "amazon-fireos"
+    ]
+  },
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onesignal/OneSignal-Cordova-SDK.git"
   },
+<<<<<<< HEAD
   "version": "2.4.5"
+=======
+  "author": "Josh Kasten, Brad Hesse, Rodrigo Gomez-Palacio",
+  "bugs": {
+    "url": "https://github.com/onesignal/OneSignal-Cordova-SDK/issues"
+  },
+  "homepage": "https://github.com/onesignal/OneSignal-Cordova-SDK#readme"
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
 }

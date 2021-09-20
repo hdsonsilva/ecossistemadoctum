@@ -25,7 +25,7 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "xml": "<feature name=\"OneSignalPush\"><param name=\"android-package\" value=\"com.plugin.gcm.OneSignalPush\" /></feature>",
               "count": 1
             },
             {
@@ -49,11 +49,19 @@
               "count": 1
             },
             {
+<<<<<<< HEAD
               "xml": "<permission android:name=\"io.ecossistema.doctum2.permission.RECEIVE_ADM_MESSAGE\" android:protectionLevel=\"signature\" />",
               "count": 1
             },
             {
               "xml": "<uses-permission android:name=\"io.ecossistema.doctum2.permission.RECEIVE_ADM_MESSAGE\" />",
+=======
+              "xml": "<permission android:name=\"io.ecossis.doctum.permission.RECEIVE_ADM_MESSAGE\" android:protectionLevel=\"signature\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"io.ecossis.doctum.permission.RECEIVE_ADM_MESSAGE\" />",
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
               "count": 1
             }
           ],
@@ -67,7 +75,11 @@
               "count": 1
             },
             {
+<<<<<<< HEAD
               "xml": "<receiver android:name=\"com.onesignal.ADMMessageHandler$Receiver\" android:permission=\"com.amazon.device.messaging.permission.SEND\"><intent-filter><action android:name=\"com.amazon.device.messaging.intent.REGISTRATION\" /><action android:name=\"com.amazon.device.messaging.intent.RECEIVE\" /><category android:name=\"io.ecossistema.doctum2\" /></intent-filter></receiver>",
+=======
+              "xml": "<receiver android:name=\"com.onesignal.ADMMessageHandler$Receiver\" android:permission=\"com.amazon.device.messaging.permission.SEND\"><intent-filter><action android:name=\"com.amazon.device.messaging.intent.REGISTRATION\" /><action android:name=\"com.amazon.device.messaging.intent.RECEIVE\" /><category android:name=\"io.ecossis.doctum\" /></intent-filter></receiver>",
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
               "count": 1
             }
           ]
@@ -77,19 +89,24 @@
   },
   "installed_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossis.doctum"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossis.doctum"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "io.ecossistema.doctum2"
+      "PACKAGE_NAME": "io.ecossis.doctum"
     },
+<<<<<<< HEAD
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.ecossistema.doctum2"
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "io.ecossistema.doctum2"
+=======
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "io.ecossis.doctum"
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
     }
   },
   "dependent_plugins": {},
@@ -296,7 +313,11 @@
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-inappbrowser": "5.0.0",
     "cordova-plugin-splashscreen": "6.0.0",
+<<<<<<< HEAD
     "cordova-plugin-whitelist": "1.3.4",
     "onesignal-cordova-plugin": "2.4.5"
+=======
+    "onesignal-cordova-plugin": "2.11.4"
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
   }
 }

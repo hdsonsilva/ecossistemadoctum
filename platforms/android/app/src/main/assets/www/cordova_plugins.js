@@ -202,7 +202,11 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-inappbrowser": "5.0.0",
     "cordova-plugin-splashscreen": "6.0.0",
+<<<<<<< HEAD
     "cordova-plugin-whitelist": "1.3.4",
     "onesignal-cordova-plugin": "2.4.5"
+=======
+    "onesignal-cordova-plugin": "2.11.4"
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
   };
 });

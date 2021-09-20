@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<manifest android:hardwareAccelerated="true" android:versionCode="10003" android:versionName="1.0.3" package="io.ecossistema.doctum2" xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest android:hardwareAccelerated="true" android:versionCode="10001" android:versionName="1.0.1" package="io.ecossis.doctum" xmlns:android="http://schemas.android.com/apk/res/android">
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
     <uses-permission android:name="android.permission.INTERNET" />
     <application android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true">
-        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode" android:label="@string/activity_name" android:launchMode="singleTop" android:name="MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.DeviceDefault.NoActionBar" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode" android:label="@string/activity_name" android:launchMode="singleTop" android:name="MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar" android:windowSoftInputMode="adjustResize">
             <intent-filter android:label="@string/launcher_name">
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -15,12 +15,21 @@
             <intent-filter>
                 <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
                 <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
+<<<<<<< HEAD
                 <category android:name="io.ecossistema.doctum2" />
+=======
+                <category android:name="io.ecossis.doctum" />
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
             </intent-filter>
         </receiver>
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
+<<<<<<< HEAD
     <permission android:name="io.ecossistema.doctum2.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
     <uses-permission android:name="io.ecossistema.doctum2.permission.RECEIVE_ADM_MESSAGE" />
+=======
+    <permission android:name="io.ecossis.doctum.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="io.ecossis.doctum.permission.RECEIVE_ADM_MESSAGE" />
+>>>>>>> 9a7973cb1d4702458b672f7f809d952993a838b2
 </manifest>
