@@ -149,7 +149,12 @@
 			<div class="col-sm-3">
 	  			<button type="button" class="w-100 btn btn-lg btn-primary" id='logar'>Entrar</button>
   			</div>  			
-
+        <div id='login_success' class="alert alert-success" role="alert" style="display: none;">
+          Login efetuado com sucesso.
+        </div>
+        <div id='login_error' class="alert alert-danger" role="alert" style="display: none;">
+          Erro ao afetuar login.
+        </div>
   			<div id='progress' class="col-sm-3" style='display: none;'>
 	  		   <ons-progress-bar indeterminate></ons-progress-bar>
   			</div>  			
@@ -157,12 +162,7 @@
     </div>        
     </div>
     
-<div id='login_success' class="alert alert-success" role="alert" style="display: none;">
-  Login efetuado com sucesso.
-</div>
-<div id='login_error' class="alert alert-danger" role="alert" style="display: none;">
-  Erro ao afetuar login.
-</div>
+
 </ons-page>
 
 </body>
