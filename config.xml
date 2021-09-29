@@ -47,6 +47,9 @@
 
     <platform name="ios">
         <preference name="deployment-target" value="11.0" />
+        <config-file overwrite="true" parent="NSLocationWhenInUseUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Podemos solicitar acesso a sua localização para armazenar corretamente seu identificador para notificações</string>
+        </config-file>
         <allow-intent href="market:*" />
         <icon density="ldpi" src="./res/ios/logo40x40.png" width="40" height="40"/>
         <icon density="mdpi" src="./res/ios/logo120x120.png" width="120" height="120"/>
