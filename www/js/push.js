@@ -42,7 +42,7 @@
 
 function setarOnesignal(username){
   document.addEventListener('deviceready', function () {
-    alert('adicionando usuario onesignal');
+    
 
     var notificationOpenedCallback = function(jsonData) {
        
