@@ -46,7 +46,7 @@ function setarOnesignal(username){
 
     var notificationOpenedCallback = function(jsonData) {
        
-       alert('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+       //alert('notificationOpenedCallback: ' + JSON.stringify(jsonData));
     }
     window.plugins.OneSignal
         .startInit(localStorage.getItem('idonesignal'))

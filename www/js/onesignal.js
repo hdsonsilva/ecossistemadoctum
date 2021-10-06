@@ -1,6 +1,4 @@
-  document.addEventListener('deviceready', function () {
-
-    
+document.addEventListener('deviceready', function () {
     // Enable to debug issues.
     // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
     
@@ -13,5 +11,5 @@
       .startInit(localStorage.getItem('idonesignal'))
       .handleNotificationOpened(notificationOpenedCallback  )
       .endInit();
-      }, false);
+}, false);
 
