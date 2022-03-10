@@ -60,7 +60,6 @@
 
 </head>
 <body>
-<ons-page  modifier="menu-page" >
     
     <!-- Cordova reference -->
     <script src="./js/config.js"></script>
@@ -78,14 +77,14 @@
 
 	/*Setando login e senha*/
 		if(localStorage.getItem('salvar_credenciais') == 1){
+
 			$('#login').val(localStorage.getItem('login_username'));
 			$('#password').val(localStorage.getItem('login_password'));
 			$('#salvar_credenciais').prop('checked',1);
 
-		}
-      $('#login, #password').focus(function(){
-          $('#imagemCadastro').hide(600);
-      });
+
+    }
+
 
       $('#salvar_credenciais').click(function(){
       	if($(this).prop('checked')){
@@ -119,55 +118,61 @@
 
   
 
-    <div class='login'>
-    	<div class="col-md-3 col-lg-3">
-        <div class='interno'>
-        <!-- <span class="fs-4">Ecossistema</span> -->
-        <p style='margin-bottom: 40px;position:relative'>
-          <div id='imagemCadastro'>
-          <img src='./img/ecossistema.png' width="50%">
+    <div class='container'>
+    	
+          <div class="row">
+            <div class="col-sm" style="text-align: center">
+              <!-- <span class="fs-4">Ecossistema</span> -->
+              
+                <div id='imagemCadastro'>
+                  <img src='./img/ecossistema.png' width="30%">
+              </div>
+              
+            </div>
         </div>
-        </p>
-        
-        <div class="row g-3">
-	        <div class="col-sm-3" style="text-align: left !important;">
-	  			<label for="login" class="form-label" style="color: #12263f;">Usuário:</label>
-	  			<input type="text" class="form-control" id='login' placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-			</div>
-
-		
-            <div class="col-sm-3" style="text-align: left !important;">
-	  			<label for="password" class="form-label" style="color: #12263f;">Senha:</label>
-	  			<input type="password" class="form-control" id='password' placeholder="" aria-label="password" aria-describedby="basic-addon1">
-
-  			</div>
-
-  			<div class="col-sm-3" style="text-align: left !important;">
-	  			<div class="form-check">
-				  <input class="form-check-input" type="checkbox" value="" id="salvar_credenciais">
-				  <label class="form-check-label" for="salvar_credenciais" style="color: #12263f;">
-				    Salvar credenciais de acesso
-				  </label>
-				</div>
-			</div>
-			<div class="col-sm-3">
-	  			<button type="button" class="w-100 btn btn-lg btn-primary" id='logar'>Entrar</button>
-  			</div>  			
-        <div id='login_success' class="alert alert-success" role="alert" style="display: none;">
-          Login efetuado com sucesso.
+          <div class="row">
+  	        <div class="col-sm" style="text-align: left !important;padding-bottom: 15px">
+    	  			<label for="login" class="form-label" style="color: #12263f;">Usuário:</label>
+    	  			<input type="text" class="form-control" id='login' placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+      			</div>
+          </div>
+          <div class="row">
+            <div class="col-sm" style="text-align: left !important;padding-bottom: 15px">
+      	  			<label for="password" class="form-label" style="color: #12263f;">Senha:</label>
+      	  			<input type="password" class="form-control" id='password' placeholder="" aria-label="password" aria-describedby="basic-addon1">
+            </div>
+      		</div>
+          <div class="row">
+        		<div class="col-sm" style="text-align: left !important;padding-bottom: 15px">
+      	  			<div class="form-check">
+      				  <input class="form-check-input" type="checkbox" value="" id="salvar_credenciais">
+      				  <label class="form-check-label" for="salvar_credenciais" style="color: #12263f;">
+      				    Salvar credenciais de acesso
+      				  </label>
+      			</div>
+          </div>
         </div>
-        <div id='login_error' class="alert alert-danger" role="alert" style="display: none;">
-          Erro ao afetuar login.
+        <div class="row">
+    			<div class="col-sm">
+    	  			<button type="button" class="w-100 btn btn-lg btn-primary" id='logar'>Entrar</button>
+      		</div>
         </div>
-  			<div id='progress' class="col-sm-3" style='display: none;'>
-	  		   <ons-progress-bar indeterminate></ons-progress-bar>
-  			</div>  			
-		  </div>
-    </div>        
+        <div class="row">
+          <div class="col-sm">
+            <div id='login_success' class="alert alert-success" role="alert" style="display: none; width: 100%">
+              Login efetuado com sucesso.
+            </div>
+            <div id='login_error' class="alert alert-danger" role="alert" style="display: none; width: 100%">
+              Erro ao afetuar login.
+            </div>
+      			<div id='progress' class="col-sm-3" style='display: none; width: 100%'>
+    	  		   <ons-progress-bar indeterminate></ons-progress-bar>
+      			</div>
+		    </div>
+      </div>        
     </div>
     
 
-</ons-page>
 <ons-modal direction="up">
   <div style="text-align: center">
     <p>
