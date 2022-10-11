@@ -250,6 +250,20 @@ module.exports = [
         "clobbers": [
             "OneSignal"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "id": "cordova-plugin-statusbar.statusbar",
+        "pluginId": "cordova-plugin-statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-statusbar/src/browser/StatusBarProxy.js",
+        "id": "cordova-plugin-statusbar.StatusBarProxy",
+        "pluginId": "cordova-plugin-statusbar",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -259,7 +273,8 @@ module.exports.metadata =
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-inappbrowser": "5.0.0",
     "cordova-plugin-splashscreen": "6.0.0",
-    "onesignal-cordova-plugin": "2.11.4"
+    "onesignal-cordova-plugin": "2.11.4",
+    "cordova-plugin-statusbar": "3.0.0"
 }
 // BOTTOM OF METADATA
 });

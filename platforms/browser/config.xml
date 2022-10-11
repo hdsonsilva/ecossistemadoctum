@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ecossis.doctum2" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.1" xmlns:gap="http://phonegap.com/ns/1.1">
-    <name>Ecossistema Doctum</name>
+<widget id="io.ecossis.doctum" version="2.5.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.1" xmlns:gap="http://phonegap.com/ns/1.1">
+    <name>Ecossistema Doctum 2.0</name>
     <description>
         Aplicativo para alunos Doctum EAD. Esse app foi desenvolvido para os alunos Doctum nas seguintes modalidades:
         - Graduação EAD
@@ -9,17 +9,13 @@
     <author email="contato@doctum.edu.br" href="http://www.doctum.edu.br">
         Equipe de Desenvolvimento Mobile - Doctum
     </author>
-    <gap:plugin name="onesignal-cordova-plugin" source="npm" spec="2.4.5" />
+    <gap:plugin name="onesignal-cordova-plugin" source="npm" spec="2.11.0" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
-    <splash src="./www/img/Default@2x~universal~anyany.png" />
-    <splash src="./www/img/Default@2x~universal~comany.png" />
-    <splash src="./www/img/Default@2x~universal~comcom.png" />
-    <splash src="./www/img/Default@3x~universal~anyany.png" />
-    <splash src="./www/img/Default@3x~universal~anycom.png" />
-    <splash src="./www/img/Default@3x~universal~comany.png" />
     <preference name="android-build-tool" value="gradle" />
     <preference name="android-minSdkVersion" value="27" />
     <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#005aaa" />
 </widget>

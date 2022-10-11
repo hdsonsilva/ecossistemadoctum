@@ -32,7 +32,12 @@ function login(usuario, senha){
             localStorage.setItem('token',ret.result.token);
             //console.log(ret.token);
             setarOnesignal(username);
+            //alert('direcionando usuario para a pagina  inicial');
             setTimeout(direcionar, 1000, eco_home_page+'?token='+ret.result.token);
+
+            document.querySelector('ons-modal').show(1500);
+            
+            //alert('apos o direcionamento');
             
 
           }

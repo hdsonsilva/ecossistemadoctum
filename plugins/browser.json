@@ -15,6 +15,9 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "io.ecossis.doctum2"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.ecossis.doctum2"
     }
   },
   "dependent_plugins": {}

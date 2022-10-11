@@ -1,12 +1,13 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Ecossistema Doctum",
-  "short_name": "Ecossistema Doctum",
-  "version": "io.ecossis.doctum2",
+  "name": "Ecossistema Doctum 2.0",
+  "short_name": "Ecossistema Doctum 2.0",
+  "version": "io.ecossis.doctum",
   "description": "Aplicativo para alunos Doctum EAD. Esse app foi desenvolvido para os alunos Doctum nas seguintes modalidades:\n        - Graduação EAD\n        - Cursos Livres",
   "author": "Equipe de Desenvolvimento Mobile - Doctum",
   "icons": [],
   "orientation": "portrait",
-  "start_url": "index.html"
+  "start_url": "index.html",
+  "theme_color": "#005aaa"
 }
