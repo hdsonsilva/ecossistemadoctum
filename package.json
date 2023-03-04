@@ -22,6 +22,6 @@
     ]
   },
   "dependencies": {
-    "cordova": "^6.0.0"
+    "cordova": "^11.1.0"
   }
 }
